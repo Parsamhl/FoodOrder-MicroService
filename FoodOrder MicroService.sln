@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFD3486A-374A-4881-8A0B-27EA6FB45F9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E0C77B93-B379-49ED-8D70-216CB748348E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountMangement", "AccountMangement", "{C520E7CC-2DB0-4E6D-863D-B840BF26B6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounting", "src\Services\AccountMangement\Accounting\Accounting.csproj", "{FB00FD77-34E7-495D-A36D-A4EEB53F489B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB00FD77-34E7-495D-A36D-A4EEB53F489B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB00FD77-34E7-495D-A36D-A4EEB53F489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB00FD77-34E7-495D-A36D-A4EEB53F489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB00FD77-34E7-495D-A36D-A4EEB53F489B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0C77B93-B379-49ED-8D70-216CB748348E} = {EFD3486A-374A-4881-8A0B-27EA6FB45F9D}
+		{C520E7CC-2DB0-4E6D-863D-B840BF26B6DA} = {E0C77B93-B379-49ED-8D70-216CB748348E}
+		{FB00FD77-34E7-495D-A36D-A4EEB53F489B} = {C520E7CC-2DB0-4E6D-863D-B840BF26B6DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {845706BF-8BA0-45C0-BBD5-112751ED13DF}
+	EndGlobalSection
+EndGlobal
