@@ -1,4 +1,4 @@
-namespace Accounting
+namespace accounting
 {
     public class WeatherForecast
     {
