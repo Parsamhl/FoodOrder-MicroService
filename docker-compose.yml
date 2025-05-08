@@ -1,0 +1,6 @@
+services:
+  accounting:
+    image: ${DOCKER_REGISTRY-}accounting
+    build:
+      context: .
+      dockerfile: src\Services\AccountMangement\accounting\Dockerfile
