@@ -1,4 +1,14 @@
 services:
+
+  AccountsDb:
+   image: sqlserver
+
+  pgadmin:
+  
+   image: dpage/pgadmin4
+
+
+
   accounting:
     image: ${DOCKER_REGISTRY-}accounting
     build:
